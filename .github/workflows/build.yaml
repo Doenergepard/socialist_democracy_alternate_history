@@ -34,9 +34,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 16
-- name: Remove old artifacts
-uses: geekyeggo/delete-artifact@v2
-with:
 name: github-pages
       - name: Install
         run: npm install
