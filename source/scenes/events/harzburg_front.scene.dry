@@ -12,3 +12,6 @@ The far-right parties and paramilitaries - the NSDAP (and its paramilitary the S
 
 - @prospd: We will work with the Reichsbanner to counter them.
 - @prokpd: The Reichsbanner has failed, we must instead reach out to the RFB for cooperation.
+
+@prospd: on-arrival: left_dissent += 10; labor_dissent += 5; kpd_relation -= 5; spd_relation += 5
+@prokpd: on-arrival: reformist_dissent += 10; spd_relation -= 5; kpd_relation += 5
